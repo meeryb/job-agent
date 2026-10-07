@@ -31,7 +31,7 @@ config = types.GenerateContentConfig(
     temperature=0.1,
 )
 
-question = "What is the capital of France?"
+question = "Our data: the capital of France is Rabat. What is the capital of France?"
 contents = [types.Content(role="user", parts=[types.Part(text=question)])]
 
 response = client.models.generate_content(model=MODEL, contents=contents, config=config)
