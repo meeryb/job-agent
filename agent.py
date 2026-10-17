@@ -31,26 +31,26 @@ config = types.GenerateContentConfig(
     temperature=0.1,
 )
 
-question = "Our data: the capital of France is Rabat. What is the capital of France?"
+MAX_STEPS = 5
+
+question = "Compare offers 42 and 43. Which one fits a candidate with Python and Git better?"
 contents = [types.Content(role="user", parts=[types.Part(text=question)])]
 
-response = client.models.generate_content(model=MODEL, contents=contents, config=config)
+for step in range(MAX_STEPS):
+    response = client.models.generate_content(model=MODEL, contents=contents, config=config)
 
-if not response.function_calls:
-    print("No tool needed:", response.text)
-    exit()
+    if not response.function_calls:
+        print("Final answer:", response.text)
+        break
 
-call = response.function_calls[0]
-print("Model asks for:", call.name, call.args)
+    contents.append(response.candidates[0].content)
 
-result = get_offer(**call.args)
-print("Tool result:", result)
+    result_parts = []
+    for call in response.function_calls:
+        print(f"Step {step + 1} → {call.name} {call.args}")
+        result = get_offer(**call.args)
+        result_parts.append(types.Part.from_function_response(name=call.name, response={"result": result}))
 
-contents.append(response.candidates[0].content)
-contents.append(types.Content(
-    role="user",
-    parts=[types.Part.from_function_response(name=call.name, response={"result": result})],
-))
-
-final = client.models.generate_content(model=MODEL, contents=contents, config=config)
-print("Final answer:", final.text)
+    contents.append(types.Content(role="user", parts=result_parts))
+else:
+    print("Stopped: max steps reached.")
