@@ -68,26 +68,35 @@ config = types.GenerateContentConfig(
     temperature=0.1,
 )
 
-# ---------- Agent loop ----------
-question = "Does my CV match offer 42? If skills are missing, find courses for them."
-contents = [types.Content(role="user", parts=[types.Part(text=question)])]
+# ---------- Agent loop (one question) ----------
+def run_agent(contents):
+    for step in range(MAX_STEPS):
+        response = client.models.generate_content(model=MODEL, contents=contents, config=config)
 
-for step in range(MAX_STEPS):
-    response = client.models.generate_content(model=MODEL, contents=contents, config=config)
+        contents.append(response.candidates[0].content)
 
-    if not response.function_calls:
-        print("Final answer:", response.text)
+        if not response.function_calls:
+            return response.text
+
+        result_parts = []
+        for call in response.function_calls:
+            print(f"  Step {step + 1} → {call.name} {call.args}")
+            func = TOOLS.get(call.name)
+            result = func(**call.args) if func else f"Unknown tool: {call.name}"
+            result_parts.append(types.Part.from_function_response(name=call.name, response={"result": result}))
+
+        contents.append(types.Content(role="user", parts=result_parts))
+
+    return "Stopped: max steps reached."
+
+# ---------- Chat (many questions, shared memory) ----------
+contents = []
+print("Job agent ready. Type 'quit' to exit.")
+
+while True:
+    question = input("\nYou: ")
+    if question.lower() == "quit":
         break
-
-    contents.append(response.candidates[0].content)
-
-    result_parts = []
-    for call in response.function_calls:
-        print(f"Step {step + 1} → {call.name} {call.args}")
-        func = TOOLS.get(call.name)
-        result = func(**call.args) if func else f"Unknown tool: {call.name}"
-        result_parts.append(types.Part.from_function_response(name=call.name, response={"result": result}))
-
-    contents.append(types.Content(role="user", parts=result_parts))
-else:
-    print("Stopped: max steps reached.")
+    contents.append(types.Content(role="user", parts=[types.Part(text=question)]))
+    answer = run_agent(contents)
+    print("Agent:", answer)
