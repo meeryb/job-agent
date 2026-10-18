@@ -1,29 +1,12 @@
-import os
-from dotenv import load_dotenv
-from google import genai
-from google.genai import types
+from extract import extract_offer, extract_cv
+from match import match
 
-load_dotenv()
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-system_prompt = """You are a recruiting assistant.
-Compare the CV with the job offer.
-List matching skills and missing skills. Be objective and brief."""
+def read_file(path: str) -> str:
+    with open(path, encoding="utf-8") as f:
+        return f.read()
 
-cv = "Skills: Python, SQL, Power BI, Git."
-offer = "Required: Python, SQL, Docker, cloud basics."
 
-response = client.models.generate_content(
-    model="gemini-3.8-flash",
-    contents=f"CV: {cv}\n\nJob offer: {offer}",
-    config=types.GenerateContentConfig(
-        system_instruction=system_prompt,
-        temperature=0.1,
-    ),
-)
-
-print(response.text)
-print("---")
-print("Input tokens:", response.usage_metadata.prompt_token_count)
-print("Output tokens:", response.usage_metadata.candidates_token_count)
-print("Total tokens:", response.usage_metadata.total_token_count)
+cv = extract_cv(read_file("cv.txt"))
+offer = extract_offer(read_file("offer.txt"))
+match(offer, cv)

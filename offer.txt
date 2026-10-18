@@ -1,0 +1,5 @@
+Stage PFE – Data Engineer (6 mois) – Rabat
+Nous recherchons un(e) étudiant(e) en dernière année d'école d'ingénieur.
+Compétences requises : Python, SQL, Docker.
+La connaissance de Kubernetes ou d'Airflow est un plus.
+Démarrage : février 2027.

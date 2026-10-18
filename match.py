@@ -1,24 +1,8 @@
-from typing import Literal
-from pydantic import BaseModel
+from schemas import Skill, Offer, CV
 
-# ---------- 1. Forms (Offer now stores a level per skill) ----------
-class Skill(BaseModel):
-    name: str
-    level: Literal["notions", "intermediate", "advanced", "unknown"]
-
-class Offer(BaseModel):
-    title: str
-    required_skills: list[Skill]
-    bonus: list[str]
-
-class CV(BaseModel):
-    skills: list[Skill]
-
-# Levels as numbers so Python can compare them
 LEVELS = {"notions": 1, "intermediate": 2, "advanced": 3}
 
 
-# ---------- 2. Rule for ONE skill ----------
 def check_skill(req: Skill, cv_skills: dict) -> tuple[str, str]:
     if req.name not in cv_skills:
         return "missing", f"❌ {req.name}: not on your CV"
@@ -36,7 +20,6 @@ def check_skill(req: Skill, cv_skills: dict) -> tuple[str, str]:
     return "partial", f"🟡 {req.name}: {req.level} required, you have {cv_level}"
 
 
-# ---------- 3. Rule for the whole offer (your thresholds) ----------
 def categorize(statuses: list[str]) -> str:
     missing = statuses.count("missing")
     partial = statuses.count("partial")
@@ -48,9 +31,8 @@ def categorize(statuses: list[str]) -> str:
         return "🔴 peu compatible"
 
 
-# ---------- 4. Match one offer against the CV ----------
 def match(offer: Offer, cv: CV) -> None:
-    cv_skills = {s.name: s.level for s in cv.skills}   # {"python": "unknown", ...}
+    cv_skills = {s.name: s.level for s in cv.skills}
 
     statuses = []
     print(f"\n=== {offer.title} ===")
@@ -66,23 +48,25 @@ def match(offer: Offer, cv: CV) -> None:
     print("  →", categorize(statuses))
 
 
-# ---------- 5. Hand-written test data ----------
-offer = Offer(
-    title="Data Engineer",
-    required_skills=[
-        Skill(name="python", level="unknown"),
-        Skill(name="sql", level="unknown"),
-        Skill(name="docker", level="intermediate"),
-        Skill(name="kubernetes", level="unknown"),
-    ],
-    bonus=["airflow", "git"],
-)
-
-cv = CV(skills=[
-    Skill(name="python", level="unknown"),
-    Skill(name="sql", level="unknown"),
-    Skill(name="docker", level="notions"),
-    Skill(name="git", level="unknown"),
-])
-
-match(offer, cv)
+if __name__ == "__main__":
+    offer = Offer(
+        title="Data Engineer",
+        required_skills=[
+            Skill(name="python", level="unknown"),
+            Skill(name="sql", level="unknown"),
+            Skill(name="docker", level="intermediate"),
+            Skill(name="kubernetes", level="unknown"),
+        ],
+        bonus=["airflow", "git"],
+        level="unknown", contract="stage", location="Rabat", required_language="unknown",
+    )
+    cv = CV(
+        full_name="Test", languages=["fr"], location="Rabat",
+        skills=[
+            Skill(name="python", level="unknown"),
+            Skill(name="sql", level="unknown"),
+            Skill(name="docker", level="notions"),
+            Skill(name="git", level="unknown"),
+        ],
+    )
+    match(offer, cv)
