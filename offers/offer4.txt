@@ -1,0 +1,10 @@
+DevOps Engineer Intern – Casablanca
+We are looking for an intern to join our platform team.
+Requirements:
+- Advanced Docker skills
+- Kubernetes
+- Terraform
+- Linux
+- CI/CD (GitLab CI)
+Nice to have: AWS.
+Working language: English.

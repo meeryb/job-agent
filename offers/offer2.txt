@@ -1,0 +1,9 @@
+Stage PFE – Ingénieur IA Générative (6 mois) – Casablanca
+Au sein de notre équipe Data & IA, vous participerez au développement d'assistants basés sur des LLM.
+Profil recherché :
+- Maîtrise de Python
+- Expérience avec le RAG et les bases vectorielles (ChromaDB, FAISS)
+- Connaissance de LangChain
+- Docker
+Atouts : Kubernetes, AWS.
+Anglais professionnel exigé.

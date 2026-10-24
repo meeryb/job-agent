@@ -18,6 +18,7 @@ Rules:
 - For each required skill, set level only if the offer states it for that skill; otherwise "unknown".
 - required_language = the language the job requires, not the language the offer is written in.
 - If level, contract or required_language is not stated, use "unknown".
+- When the offer lists tools as examples of ONE requirement (in parentheses, "e.g.", "comme", "ou", "such as"), create ONE required skill: name = the first tool, alternatives = the other tools. Otherwise alternatives = [].
 """
 
 CV_RULES = """You extract CV data into JSON.

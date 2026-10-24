@@ -2,6 +2,11 @@ from typing import Literal
 from pydantic import BaseModel
 
 
+class RequiredSkill(BaseModel):
+    name: str
+    level: Literal["notions", "intermediate", "advanced", "unknown"]
+    alternatives: list[str]      # other tools that also satisfy this requirement
+
 class Skill(BaseModel):
     name: str
     level: Literal["notions", "intermediate", "advanced", "unknown"]
@@ -9,7 +14,7 @@ class Skill(BaseModel):
 
 class Offer(BaseModel):
     title: str
-    required_skills: list[Skill]          # now with levels (parked item #4 ✅)
+    required_skills: list[RequiredSkill]          # now with levels (parked item #4 ✅)
     bonus: list[str]
     level: Literal["junior", "mid", "senior", "unknown"]
     contract: Literal["stage", "cdi", "cdd", "freelance", "unknown"]

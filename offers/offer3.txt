@@ -1,0 +1,5 @@
+Stage – Data Scientist (6 mois) – Rabat
+Missions : modèles de prévision, tableaux de bord pour les équipes métier.
+Compétences requises : Python, scikit-learn, SQL, Power BI.
+Apache Spark serait un plus.
+Langue de travail : français.

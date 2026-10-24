@@ -1,0 +1,4 @@
+Stage PFE – Développeur Full-Stack Java (6 mois) – Tanger
+Compétences requises : Java, Spring Boot, React, PostgreSQL.
+Une expérience avec Docker est un plus.
+Démarrage : février 2027.
