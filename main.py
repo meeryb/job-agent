@@ -1,6 +1,7 @@
 from pathlib import Path
 from extract import extract_offer, extract_cv
 from match import match
+from schemas import CV
 
 
 def read_file(path) -> str:
@@ -13,7 +14,7 @@ def sort_key(result: dict) -> tuple:
 
 
 # 1. CV: extracted once
-cv = extract_cv(read_file("cv.txt"))
+cv = CV.model_validate_json(read_file("cv.json"))
 
 # 2. Every offer in the offers/ folder
 results = []

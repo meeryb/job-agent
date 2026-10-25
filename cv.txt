@@ -1,6 +1,6 @@
 MERYEM BOUZOUBAA
-IA & Développement Full-Stack
-merybouz04@gmail.com | +212 7 01 12 36 52
+IA générative & Agents LLM
+meryem.bouzoubaa@esi.ac.ma | +212 7 01 12 36 52 | Rabat, Maroc | LinkedIn : meryem bouzoubaa
 
 PROFIL
 Élève ingénieure en informatique en dernière année à l'École des Sciences de l'Information (ESI),
@@ -8,15 +8,15 @@ PROFIL
 Compétences en IA générative (RAG, agents LLM, intégration de LLM open source en local) et en
 développement full-stack, mises en pratique lors de deux stages en entreprise et de projets académiques.
 
-ÉDUCATION
+FORMATION ACADÉMIQUE
 Cycle d'ingénieur informatique, École des Sciences de l'Information – Rabat, Maroc (2024 – aujourd'hui)
 Classes préparatoires MP, Lycée technique Mohammadia – Mohammadia, Maroc (2022 – 2024)
 Baccalauréat sciences maths A, Azhar Erriad 2 – Casablanca, Maroc (2021 – 2022)
 
 EXPÉRIENCE PROFESSIONNELLE
-Stage — Développement IA & Full-Stack | Port de Marsa Maroc | Juillet – Août 2026
+Stage — Ingénierie IA | Port de Marsa Maroc | Juillet – Août 2026
 Conception d'un MVP de plateforme interne hors ligne :
-- Assistant conversationnel répondant aux questions des employés à partir des documents internes.
+- Assistant conversationnel RAG répondant aux questions des employés à partir des documents internes.
 - Automatisation du scan des documents des camions aux portes du port pour suivre leurs entrées et sorties.
 - Portail web interne de recherche, de suivi des passages et de gestion des accès par rôle.
 Outils : Python 3.10, Ollama (Mistral 7B), Tesseract, OpenCV, Git, Reflex, ChromaDB, FastAPI, PostgreSQL, SQLAlchemy
@@ -28,11 +28,12 @@ Stage — Développement Web Full-Stack | GCP Mining & Quarry | Août 2025
 Outils : Java 21, Spring Boot 3.2, Spring Data JPA, Spring Security, PostgreSQL, Docker, Git
 
 PROJETS ACADÉMIQUES
-Agent IA de candidature et d'orientation | En cours
+Agent IA de candidature et d'orientation | Octobre 2026 – en cours
 - Comparaison automatique d'un CV avec des offres d'emploi.
 - Identification des compétences manquantes et recommandation de formations.
-- Génération de lettres de motivation personnalisées.
-Outils : Python 3.10, LLM, Ollama, sentence-transformers, ChromaDB, PostgreSQL, Git
+- Génération de lettres de motivation personnalisées, envoyées après validation humaine.
+- Agent développé from scratch (sans framework), avec évaluation sur modèles locaux et cloud.
+Outils : Python 3.10, LLM, Ollama, Gemini API, sentence-transformers, ChromaDB, PostgreSQL, Git
 
 Application de Réservation de Vols | Juin 2025
 - Parcours client complet : recherche de vols, choix du siège, paiement et suivi des réservations.
@@ -40,13 +41,13 @@ Application de Réservation de Vols | Juin 2025
 Outils : Java 21, JavaFX, PostgreSQL, JDBC, Maven, UML
 
 COMPÉTENCES
-IA Générative & LLM : RAG, Agents LLM (ReAct), NLP, Ollama, LLaMA, Mistral, OpenAI API, sentence-transformers
+IA Générative & LLM : RAG, Agents LLM (ReAct), NLP, Ollama, LLaMA, Mistral, OpenAI API, sentence-transformers, Tool calling, Gemini API
 Data & Vision : OCR (Tesseract, OpenCV), Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Power BI
-Langages : Python, Java, JavaScript, C/C++, SQL, PHP
-Backend & API : Spring Boot, Spring Security, Laravel, JPA/Hibernate, SQLAlchemy
-Frontend : React, Reflex, JavaFX, HTML/CSS
+Langages : Python, Java, JavaScript, SQL, PHP, Dart
+Backend & API : Spring Boot, Laravel, JPA/Hibernate, SQLAlchemy
+Frontend & Mobile : React, Reflex, JavaFX, HTML/CSS, Flutter
 Bases de données : PostgreSQL, MySQL, Oracle, MongoDB, ChromaDB
-DevOps & Outils : Git, GitHub, Docker, Maven, Gradle, Linux
+DevOps & Outils : Git, GitHub, Docker, Maven, Gradle, Linux, Azure
 Méthodes : Agile/Scrum, Jira, UML
 
 LANGUES

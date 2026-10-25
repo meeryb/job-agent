@@ -1,0 +1,232 @@
+{
+  "full_name": "Meryem Bouzoubaa",
+  "skills": [
+    {
+      "name": "rag",
+      "level": "unknown"
+    },
+    {
+      "name": "agents llm",
+      "level": "unknown"
+    },
+    {
+      "name": "nlp",
+      "level": "unknown"
+    },
+    {
+      "name": "ollama",
+      "level": "unknown"
+    },
+    {
+      "name": "llama",
+      "level": "unknown"
+    },
+    {
+      "name": "mistral",
+      "level": "unknown"
+    },
+    {
+      "name": "openai api",
+      "level": "unknown"
+    },
+    {
+      "name": "sentence-transformers",
+      "level": "unknown"
+    },
+    {
+      "name": "gemini api",
+      "level": "unknown"
+    },
+    {
+      "name": "ocr",
+      "level": "unknown"
+    },
+    {
+      "name": "tesseract",
+      "level": "unknown"
+    },
+    {
+      "name": "opencv",
+      "level": "unknown"
+    },
+    {
+      "name": "pandas",
+      "level": "unknown"
+    },
+    {
+      "name": "numpy",
+      "level": "unknown"
+    },
+    {
+      "name": "scikit-learn",
+      "level": "unknown"
+    },
+    {
+      "name": "matplotlib",
+      "level": "unknown"
+    },
+    {
+      "name": "seaborn",
+      "level": "unknown"
+    },
+    {
+      "name": "power bi",
+      "level": "unknown"
+    },
+    {
+      "name": "python",
+      "level": "unknown"
+    },
+    {
+      "name": "java",
+      "level": "unknown"
+    },
+    {
+      "name": "javascript",
+      "level": "unknown"
+    },
+    {
+      "name": "sql",
+      "level": "unknown"
+    },
+    {
+      "name": "php",
+      "level": "unknown"
+    },
+    {
+      "name": "dart",
+      "level": "unknown"
+    },
+    {
+      "name": "spring boot",
+      "level": "unknown"
+    },
+    {
+      "name": "laravel",
+      "level": "unknown"
+    },
+    {
+      "name": "jpa",
+      "level": "unknown"
+    },
+    {
+      "name": "hibernate",
+      "level": "unknown"
+    },
+    {
+      "name": "sqlalchemy",
+      "level": "unknown"
+    },
+    {
+      "name": "fastapi",
+      "level": "unknown"
+    },
+    {
+      "name": "react",
+      "level": "unknown"
+    },
+    {
+      "name": "reflex",
+      "level": "unknown"
+    },
+    {
+      "name": "javafx",
+      "level": "unknown"
+    },
+    {
+      "name": "html",
+      "level": "unknown"
+    },
+    {
+      "name": "css",
+      "level": "unknown"
+    },
+    {
+      "name": "flutter",
+      "level": "unknown"
+    },
+    {
+      "name": "postgresql",
+      "level": "unknown"
+    },
+    {
+      "name": "mysql",
+      "level": "unknown"
+    },
+    {
+      "name": "oracle",
+      "level": "unknown"
+    },
+    {
+      "name": "mongodb",
+      "level": "unknown"
+    },
+    {
+      "name": "chromadb",
+      "level": "unknown"
+    },
+    {
+      "name": "git",
+      "level": "unknown"
+    },
+    {
+      "name": "github",
+      "level": "unknown"
+    },
+    {
+      "name": "docker",
+      "level": "unknown"
+    },
+    {
+      "name": "maven",
+      "level": "unknown"
+    },
+    {
+      "name": "gradle",
+      "level": "unknown"
+    },
+    {
+      "name": "linux",
+      "level": "unknown"
+    },
+    {
+      "name": "azure",
+      "level": "unknown"
+    },
+    {
+      "name": "agile",
+      "level": "unknown"
+    },
+    {
+      "name": "scrum",
+      "level": "unknown"
+    },
+    {
+      "name": "jira",
+      "level": "unknown"
+    },
+    {
+      "name": "uml",
+      "level": "unknown"
+    },
+        {
+      "name": "llm",
+      "level": "unknown"
+    },
+    {
+      "name": "tool calling",
+      "level": "unknown"
+    },
+    {
+      "name": "jdbc",
+      "level": "unknown"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr",
+    "en",
+    "es"
+  ],
+  "location": "Rabat, Maroc"
+}

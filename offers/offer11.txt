@@ -1,0 +1,63 @@
+Stagiaire IA & Automatisation (H/F)
+BatiScript • Rennes, Bretagne, France (Sur site)
+Lieu : Rennes (100 % présentiel)
+
+Durée : 5 mois minimum
+
+Disponibilité : Dès que possible
+
+Le groupe Aghadoe conçoit, édite et commercialise des solutions numériques innovantes ayant pour objectif commun d’améliorer le quotidien de nos utilisateurs. Nos produits couvrent des secteurs variés tels que :
+
+Le bâtiment, avec nos solutions BatiScript et SGTi (acquise en mars 2025)
+L’éducation, via Kaligo
+Les troubles de l’apprentissage, avec Kardi
+
+Avec plus de 60 collaborateurs, nous sommes basés à Rennes et opérons aussi à l’international.
+
+Ces marques se retrouvent autour d'un même projet : aider et accompagner l'humain.
+
+Dans ce contexte de croissance et d’innovation, l’IA est aujourd’hui un levier clé pour améliorer nos outils internes et accélérer nos usages.
+
+C’est pour renforcer cette dynamique que nous recrutons un·e stagiaire IA & Automatisation.
+
+Vous travaillerez en étroite collaboration avec notre expert interne en IA (niveau doctorat) et notre équipe technique, afin de contribuer au développement d’agents IA et de systèmes d’automatisation utilisés au quotidien au sein de l’entreprise.
+
+Ce stage est résolument orienté mise en œuvre concrète : prototyper, itérer et intégrer des outils basés sur l’IA dans des processus opérationnels réels. 🚀
+
+🎯 Votre mission
+
+En tant que stagiaire IA & Automatisation, vous interviendrez sur des projets variés visant à améliorer l’efficacité de nos outils internes. Vous participerez notamment à :
+
+la conception et le développement d’agents IA et de chatbots à usage interne,
+la mise en place de workflows d’automatisation connectés à nos outils métiers et sources de données,
+l’intégration d’API d’IA dans des systèmes existants,
+la contribution à des pipelines de traitement de données et d’automatisation de documents 📄.
+
+Vous serez également amené·e à travailler sur des sujets plus transverses liés à l’IA, comme l’anonymisation, les outils orientés conformité ou encore le monitoring.
+
+Dans un contexte de production, vous contribuerez à améliorer la fiabilité, la maintenabilité et l’utilisabilité de nos outils internes. Le poste implique de mener plusieurs projets de petite à moyenne taille en parallèle, ce qui demande une bonne capacité de priorisation et une documentation claire.
+
+👤 Votre profil
+
+Vous avez de solides bases en Python et une première expérience avec des API d’IA / LLM et le développement d’agents conversationnels. Vous êtes sensible aux bonnes pratiques d’ingénierie logicielle (code propre, Git, notions de tests) et à l’aise dans un environnement Linux.
+
+Vous aimez automatiser et simplifier des processus. Vous savez développer des scripts ou workflows pour des contrôles de données, des alertes ou des enchaînements de tâches, et vous êtes à l’aise avec des données structurées (Excel, CSV, bases). Vous portez également un intérêt au traitement de documents et aux pipelines de données.
+
+Vous accordez de l’importance à l’expérience utilisateur et à l’ergonomie des outils, et êtes à l’aise pour collaborer avec des designers ; une familiarité avec des outils comme Canva est un plus.
+
+Au-delà de la technique, nous recherchons une personne :
+
+organisée et méthodique,
+capable d’alterner entre exploration et implémentation structurée,
+à l’aise pour documenter son travail et collaborer en équipe,
+à l’aise en français et en anglais,
+curieuse des systèmes d’IA appliqués et motivée par des usages concrets en environnement professionnel.
+
+🎁 Ce que nous vous offrons
+
+Vous vivrez une expérience pratique sur des systèmes d’IA orientés production, avec :
+
+une exposition à une grande variété de cas d’usage : agents, automatisation, outils liés à la conformité,
+un accompagnement rapproché par un expert IA interne (niveau doctorat) 🎓,
+une collaboration avec une équipe technique expérimentée,
+un environnement pragmatique, centré sur l’utilité, la robustesse et l’impact interne 🌟.

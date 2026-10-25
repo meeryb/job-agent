@@ -1,0 +1,59 @@
+Offre de stage – Assistant(e) Forward Deployed (FDE) IA (H/F) - ALTEN 
+La Rochelle, Nouvelle-Aquitaine, France · il y a 3 jours · 42 candidats
+Aucune info disponible pour le moment sur les réponses
+
+À propos de l’offre d’emploi
+Stage | Bordeaux
+
+Rejoignez la cellule IA stratégique d’ALTEN Bordeaux et contribuez à la révolution de l’IA générative
+
+Chez ALTEN Bordeaux, nous lançons une cellule IA dédiée à la transformation des besoins métiers en solutions concrètes grâce à l’IA générative. En tant que stagiaire, vous serez intégré(e) à une équipe agile et innovante, où vous participerez à la conception, au développement et à l’automatisation de solutions IA pour des secteurs clés comme l’aéronautique, la défense ou l’énergie.
+
+Vous bénéficierez d’un accompagnement personnalisé, tout en ayant l’opportunité de proposer des idées et de contribuer à des projets à fort impact.
+
+
+
+Description du poste
+
+Vos missions
+
+En tant que Stagiaire Forward Deployed (FDE) IA, vous interviendrez sur :
+
+L’identification de cas d’usage à forte valeur ajoutée pour nos clients, en collaboration avec l’équipe.
+La participation à la conception de solutions IA générative (assistants métiers, automatisation documentaire, etc.).
+Le développement de scripts et d’outils pour automatiser des tâches répétitives (Python, APIs, etc.).
+L’intégration de modèles de langage (Mistral, OpenAI, etc.) dans des prototypes simples.
+L’exploitation de bases de données pour structurer et enrichir les données métiers (Vector Databases, RAG).
+La documentation des processus et des solutions développées.
+L’accompagnement des utilisateurs dans la prise en main des outils IA.
+Environnement technique
+
+Vous évoluerez dans un écosystème moderne autour de :
+
+IA Générative : Mistral, OpenAI, Claude
+Frameworks IA : LangChain, LlamaIndex (initiation)
+Développement : Python, FastAPI (bases)
+Data & Automatisation : Vector Databases, RAG, Excel avancé, Power Query
+Cloud : Azure, AWS (notions)
+
+Qualifications
+
+Votre profil
+
+Étudiant(e) en Bac+5 en Informatique, Data, ou IA, vous possédez :
+
+Une maîtrise de Python (bibliothèques comme Pandas, NumPy).
+Une maitrise de l’IA générative.
+Un esprit analytique et une capacité à résoudre des problèmes techniques.
+Une rigueur et un sens de l’organisation pour travailler sur des projets concrets.
+Un goût pour l’innovation et l’automatisation.
+
+Informations supplémentaires
+
+Pourquoi rejoindre cette aventure ?
+
+Une expérience concrète au sein d’une cellule IA en plein essor.
+Un environnement dynamique où vos idées seront valorisées.
+L’opportunité de monter en compétences sur des technologies de pointe.
+Une culture d’innovation et de collaboration avec des experts.
+Des perspectives d’évolution au sein d’ALTEN.

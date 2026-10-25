@@ -1,0 +1,74 @@
+Job Title
+
+Back-End Software Engineer Intern (12 months) - Starting Summer 2027
+
+About SLB
+
+We are a global technology company, driving energy innovation for a balanced planet.
+
+At SLB we create amazing technology that unlocks access to energy for the benefit of all. That is our purpose. As innovators, that has been our mission for 100 years. We are facing the world’s greatest balancing act- how to simultaneously reduce emissions and meet the world’s growing energy demands. We’re working on that answer. Every day, a step closer.
+
+Our collective future depends on decarbonizing the fossil fuel industry, while innovating a new energy landscape. It’s what drives us. Ensuring progress for people and the planet, on the journey to net zero and beyond. For a balanced planet.
+
+Our purpose: Together, we create amazing technology that unlocks access to energy for the benefit of all. You can find out more about us on https://www.slb.com/who-we-are
+
+Location: 
+
+Crawley, Sussex
+
+Description & Scope
+
+Join a global software engineering team working on Omega, a large-scale enterprise platform comprising over 35 million lines of code and technologies spanning more than 15 programming languages. This internship offers a unique opportunity to gain hands-on experience across software development, cloud technologies, automation, DevOps, quality engineering, and Artificial Intelligence. As an intern, you will collaborate with engineers across the UK, US, and India and contribute to real projects that support the development, testing, delivery, and operation of industry-leading scientific and engineering software used worldwide.
+
+Skills
+
+Throughout the internship, you will work on a variety of focused mini-projects, allowing you to explore different areas of software engineering while building practical skills in:
+
+ Software development using Python, Java, C++, and scripting technologies.
+ Automation of testing, deployment, and delivery processes.
+ Cloud-native technologies and integrations with Microsoft Azure and Google Cloud Platform.
+ Performance optimisation and reliability improvements for large-scale systems.
+ Modern DevOps and Continuous Integration/Continuous Delivery (CI/CD) practices.
+ Application monitoring, reporting, and quality metrics. Investigation and application of Generative AI technologies to improve engineering workflows.
+ Development and prototyping of GenAI-powered capabilities, including intelligent automation, engineering productivity tools, and AI-assisted features integrated directly into the Omega platform. 
+ Interns will gain exposure to both Windows and Linux environments, on-premises infrastructure, cloud-based systems, and modern software engineering practices used in large-scale commercial products.
+
+The placement is designed to provide experience across the full software delivery lifecycle, from design and implementation through testing, deployment, and operational support.
+
+Responsibilities
+
+You will be fully integrated into the team's agile development process, participating in planning activities, daily stand-ups, technical discussions, and project reviews. Tasks will be selected according to business priorities and your interests and development goals.
+
+Typical Responsibilities May Include
+
+ Designing and implementing automation solutions that improve software build, test, and release processes.
+ Developing tools and services using Python, Java, C++, and scripting languages. Improving the robustness, performance, and reliability of engineering tools and workflows. Supporting the development of features within a large-scale scientific and engineering software platform.
+ Contributing to cloud integration initiatives across Azure and Google Cloud environments.
+ Creating dashboards, reporting solutions, and quality metrics to improve engineering visibility.
+ Evaluating and applying Generative AI technologies to solve real engineering challenges.
+ Prototyping and implementing AI-assisted capabilities that enhance user productivity and platform functionality.
+ Collaborating with engineers across multiple global locations and technology domains.
+ Learning and applying industry-standard software engineering, DevOps, and cloud development practices. 
+
+Requirements
+
+ Studying a degree in Computer Science, Software Engineering, Computer Engineering or a related discipline
+ Strong problem-solving and analytical thinking skills.
+ Ability to work effectively both independently and as part of a collaborative team.
+ Basic programming knowledge obtained through academic studies, personal projects, or previous experience. 
+
+Exposure To Any Of The Following Would Be Advantageous
+
+ Linux as a development environment.
+ Python, Java, C or C++ programming.
+ Generative AI tools and technologies (e.g., GitHub Copilot, ChatGPT, AI-assisted development tools).
+ Cloud platforms such as Microsoft Azure or Google Cloud Platform.
+ Git source control and collaborative development workflows.
+ CI/CD concepts and tools such as Jenkins.
+ Agile software development methodologies.
+ Unit testing and software quality practices.
+ Scripting and automation. 
+
+SLB is an equal employment opportunity employer. Qualified applicants are considered without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, or other characteristics protected by law.
+
+The recruiting process and the position can be adapted to fit most disabilities, please do not hesitate to mention this when applying.

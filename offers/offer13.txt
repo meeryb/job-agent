@@ -1,0 +1,30 @@
+Stage : Fine-tuning de modèles de langage pour la description automatique de flow charts - Stellantis
+Poissy, Île-de-France, France · il y a 1 semaine · 63 personnes ont cliqué sur Postuler
+Réponses gérées en dehors de LinkedInÀ propos de l’offre d’emploi
+L'objectif du stage est d'adapter un modèle de langage à la compréhension et à la description automatique de flow charts utilisés dans les processus d'ingénierie.
+
+Missions Principales
+
+ Recenser et analyser les différents types de flow charts disponibles.
+ Définir une représentation structurée des blocs, relations, conditions et séquences.
+ Constituer et annoter un jeu de données d'apprentissage et d'évaluation.
+ Comparer des approches par prompting, RAG et fine-tuning.
+ Développer un prototype capable de générer une description fidèle et structurée d'un flow chart.
+ Évaluer la qualité des descriptions, la couverture des informations et les risques d'erreur.
+ Proposer des règles de validation et une trajectoire d'intégration dans les outils existants.
+
+ Profil 
+
+École d'ingénieurs ou Master en informatique, IA ou data science. Compétences en Python, LLM, fine-tuning, traitement automatique du langage et analyse de documents. Connaissance des représentations de processus appréciée. Rigueur et capacité de formalisation.
+
+Chez Stellantis nous évaluons les candidats selon leurs qualifications, leurs mérites et les besoins du métier Nous accueillons les candidatures des personnes de tout genre, âge, ethnie, nationalité,
+
+religion, orientation sexuelle, et handicap.
+
+La diversité de nos équipes nous permettra de mieux appréhender l'évolution des besoins de nos clients et de notre environnement futur.
+
+ Durée du contrat 
+
+6 mois
+
+At Stellantis, we assess candidates based on qualifications, merit and business needs. We welcome applications from people of all gender identities, age, ethnicity, nationality, religion, sexual orientation and disability. Diverse teams will allow us to better meet the evolving needs of our customers and care for our future.

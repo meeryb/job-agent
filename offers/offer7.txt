@@ -1,0 +1,132 @@
+AI Agent Builder Intern (Student Project / 3- 6 Months)
+Location: London - hybrid
+
+Type: Full-time Internship / Student Project (3-6 months)
+
+Potential to extend into a longer-term contract
+
+
+
+Transreport is improving travel by helping transport operators deliver accessible journeys more reliably.
+Our platform connects passenger access needs with operational delivery on the ground, and is used every day by passengers and frontline rail staff to coordinate real journeys. We operate across the UK, Japan, and Europe, and have supported over 10 million assistance requests for more than 1 million users.
+We are a Series A company, recognised with a King’s Award, and focused on building operational systems that scale.
+The Opportunity
+This is an opportunity to build AI systems that solve real business problems.
+At Transreport, there are many internal and external workflows that are still manual, repetitive, or slow.
+We want to change that by building practical AI agents that improve productivity, reduce repetitive workload, and help teams operate more effectively.
+As part of this internship, you will identify high-value use cases and build working AI agents that can automate or improve processes across the business. Examples could include:
+
+AI agents for internal admin workflows across HR, Legal, Finance, or Operations
+
+AI agents for service desk and support ticket handling
+
+AI agents to support marketing execution, such as drafting LinkedIn posts or campaign content
+
+AI agents for product, engineering, or QA workflows
+
+AI tools that improve team efficiency and reduce manual effort
+
+This is not a theoretical research project.
+
+It is a hands-on build role focused on real deployment and measurable impact.
+
+
+
+Tasks
+What You’ll Do
+You will work across teams to identify opportunities, design solutions, and build AI-driven tools that people actually use.
+Your work is likely to include:
+
+Understanding how current workflows operate and where the inefficiencies are
+
+Identifying tasks that can be automated or significantly improved with AI
+
+Designing and building AI agents, automations, scripts, or internal tools
+
+Testing solutions with real users and improving them based on feedback
+
+Working with teams across Commercial, Product, Operations, and Engineering
+
+Turning early ideas into usable tools that fit into day-to-day workflows
+
+Measuring the impact of what you build
+
+
+
+What Makes This Role Different
+This is a chance to do more than learn about AI. You will apply it in a live company environment.
+You will have the freedom to explore different use cases, take ownership of delivery, and build things that could continue to be used after the internship ends. Strong candidates may also have the opportunity to extend into a longer-term contract.
+This role would suit a student who wants to:
+
+Build an impressive portfolio of real AI projects
+
+Work directly on applied AI, automation, and agent-based systems
+
+Gain experience in a fast-moving startup environment
+
+Create tools with visible impact across multiple teams
+
+Turn technical skills into commercial outcomes
+
+
+
+What Success Looks Like
+
+By the end of the 3 months, you may have:
+
+Delivered multiple working AI automations or agents
+
+Reduced manual effort in important workflows
+
+Improved speed, consistency, or quality for internal teams
+
+Built solutions that can be scaled across the business
+
+Demonstrated clear practical impact from your work
+
+
+
+Requirements
+Must have
+
+Hands-on experience building AI agents, automations, or workflow tools
+
+Familiarity with LLMs, prompt engineering, and agent-based workflows
+
+Strong problem-solving skills and a practical execution mindset
+
+Ability to work independently and take ownership
+
+Interest in building solutions that deliver measurable business value
+
+
+
+Nice to have
+
+Experience using tools or frameworks for automation, orchestration, or AI prototyping
+
+Exposure to operational workflows, internal tooling, or process design
+
+Basic understanding of product, engineering, or business operations
+
+Examples of side projects, hackathon builds, or prototypes you have already shipped
+
+We care more about what you’ve built than your formal experience.
+
+
+
+How We Work
+At Transreport, we value:
+
+Ownership over hierarchy
+
+Clarity over unnecessary process
+
+Impact over activity
+
+
+
+We’re looking for people who like solving problems, building quickly, and turning ideas into working systems.
+Why Apply
+You’ll get the chance to work on meaningful AI projects in a real business setting, build tools that teams depend on, and gain experience that goes well beyond a typical internship.
+If you’re excited about AI agents, automation, and building things that make organisations more effective, we’d like to hear from you.

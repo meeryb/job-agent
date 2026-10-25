@@ -1,0 +1,32 @@
+Software Engineer (Summer 2027 Internship) CommonAI CIC
+À propos de l’offre d’emploi
+CommonAI CIC is a non-profit membership organisation, founded on a belief in collaborative engineering for the safe and responsible development of foundational AI technologies. A place where AI startups, enterprises large and small, public sector bodies and academia can share resources and knowledge, to co-develop and grow businesses, fast.
+
+As an intern in our engineering team you will contribute to the foundational technologies we are developing in collaboration with our members. Open development is at the heart of what we do and we also encourage our engineers to play an active role in open source communities.
+
+Requirements
+
+The ideal candidate will have:
+
+Excellent programming abilities with experience in relevant languages (Python, Rust, C++ and/or Go)
+A record of strong academic achievement
+Experience with relevant libraries/tools (PyTorch, Tensorflow, Neo4j) and/or AI accelerators (GPU, TPU) is a plus
+A basic understanding of open source development processes (e.g. GitHub pull requests)
+Good written and verbal communication skills, with the ability to present complex technical concepts clearly to diverse audiences
+Desire to work in a rapidly evolving startup environment where you will have a high impact
+
+To be eligible for this position you must be currently pursuing an undergraduate or postgraduate degree in a relevant field.
+
+This will be a paid internship.
+
+Benefits
+
+A collaborative and supportive work environment
+The opportunity to have a high impact in a growing organisation
+Professional development opportunities
+Networking opportunities with influential people from across the tech sector and academia
+A vibrant office environment located a few minutes walk away from Cambridge train station
+
+Applications for this position will be considered as they are received.
+
+CommonAI CIC is an equal opportunity employer and is committed to creating an inclusive and diverse workplace.

@@ -1,0 +1,47 @@
+STAGE - IA générative et création de diagrammes intelligents (F/H) - Dassault systems
+À propos de l’offre d’emploi
+Au sein de la R&D de Dassault Systèmes, vous rejoignez l’équipe 3DStory / 3DWhiteboard, intégrée au département 3DEXPERIENCE Platform R&D – 3D for Collaborative Innovation. L’équipe développe des applications qui facilitent la collaboration, le partage d’idées et la construction collective de concepts au sein de la plateforme 3DEXPERIENCE.
+
+L’objectif de ce stage est d’explorer le potentiel de l’intelligence artificielle générative et des modèles multimodaux pour simplifier et accélérer la création de diagrammes structurés et professionnels dans 3DWhiteboard.
+
+Imaginez pouvoir décrire une idée par du texte, une image ou d’autres médias, puis obtenir automatiquement un diagramme clair, directement intégré dans l’application et entièrement éditable. C’est l’expérience que vous contribuerez à concevoir, en explorant notamment les modèles de langage (LLM), les agents IA et les outils d’interaction avec l’environnement Whiteboard.
+
+Vos missions
+
+Tout au long du stage, vous explorerez et développerez différentes approches pour transformer une description en langage naturel en un diagramme exploitable dans 3DWhiteboard.
+
+ Développer une expérience de génération de diagrammes par IA : concevoir une solution capable de transformer une description textuelle en diagramme au format Mermaid.
+ Explorer les capacités multimodales des modèles d’IA : exploiter des informations issues de textes, d’images et d’autres médias pour produire des diagrammes plus pertinents et fidèles aux intentions des utilisateurs.
+ Concevoir des interactions avec des agents IA : étudier comment un utilisateur peut déclencher et guider la génération d’un diagramme à travers une commande ou une conversation avec un agent.
+ Intégrer les diagrammes dans 3DWhiteboard : exploiter notamment les outils MCP (Model Context Protocol) pour créer les entités Whiteboard correspondant aux éléments du diagramme.
+ Évaluer des approches alternatives à Mermaid : comparer différentes solutions de représentation afin d’identifier les plus adaptées aux besoins de l’application.
+ Expérimenter et prototyper : tester les approches développées, évaluer leur pertinence et contribuer à l’amélioration de l’expérience utilisateur.
+
+Ce stage vous permettra de travailler sur un sujet concret à l’intersection de l’IA générative, du développement logiciel et des outils collaboratifs, avec la possibilité de contribuer à une nouvelle expérience intelligente au sein de la plateforme 3DEXPERIENCE.
+
+Vos Qualifications
+
+ Vous suivez une formation supérieure en informatique, en intelligence artificielle ou dans un domaine équivalent.
+ Vous avez des connaissances sur les modèles d’IA générative et les LLM, ainsi que sur les frameworks permettant de développer des agents intelligents.
+ Vous avez des compétences en développement logiciel, notamment en Python et/ou TypeScript.
+ Vous êtes intéressé par les architectures agentiques, les interactions entre les modèles d’IA et les applications, ainsi que par les outils MCP.
+ Vous aimez expérimenter, explorer de nouvelles approches techniques et transformer des idées en prototypes fonctionnels.
+ Vous êtes volontaire, curieux et appréciez le travail en équipe.
+
+Nous rejoindre c'est aussi...
+
+Intégrer une entreprise scientifique au cœur de l’innovation technologique, portée par une forte croissance depuis plus de 40 ans
+
+Principaux avantages et bénéfices :
+
+Environnement multiculturel
+
+Cadre de travail convivial axé sur le bien-être et la santé (salles de sport & de musique, conciergerie…)
+
+Engagement en faveur de la diversité et de l’inclusion
+
+Politique dynamique de développement de carrière : plan de formation, mobilités internes, etc
+
+Inclusion statement
+
+As a game-changer in sustainable technology and innovation, Dassault Systèmes is striving to build more inclusive and diverse teams across the globe. We believe that our people are our number one asset and we want all employees to feel empowered to bring their whole selves to work every day. It is our goal that our people feel a sense of pride and a passion for belonging. As a company leading change, it’s our responsibility to foster opportunities for all people to participate in a harmonized Workforce of the Future.

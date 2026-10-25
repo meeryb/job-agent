@@ -1,0 +1,18 @@
+AI Engineer, LLM (Stagiaire, Alternant) - JIMINI AI
+À propos de l’offre d’emploi
+En tant que Stagiaire ou Alternant en IA, tu joueras un rôle clé dans le développement de nos solutions d'IA pour le secteur juridique et l'amélioration de notre framework agentique de Retrieval Augmented Generation.Tu travailleras sur des sujets comme :
+Systèmes agentiques : Implémenter des agents autonomes basés sur des LLMs pour résoudre les tâches complexes des avocats, juristes et notaires.
+Fine-tuning : Fine-tuner des modèles d'embedding pour les spécialiser sur le domaine juridique.
+Amélioration du retrieving : Explorer de nouvelles approches de Reranking ou de Chunking.
+Évaluation LLM as a Judge : Mettre en place des méthodologies d'évaluation innovantes en utilisant des modèles de langage comme juges.
+Expérience : Tu es en dernière année d'une grande école d'ingénieurs et as effectué au moins un stage en Machine Learning ou Software Engineering.
+Esprit analytique : Tu aimes résoudre des problèmes complexes et proposer des solutions innovantes.
+Capacité d'apprentissage : Tu apprends rapidement et t’adaptes vite à de nouvelles technologies et environnements.
+Précision et extra-mile : Tu sais que le diable se cache dans les détails.
+Passion pour la tech : Tu es à l’affût des dernières tendances et technologies du secteur.
+Envie d'apprendre : Tu aimes les défis, valorises les feedbacks et cherches constamment à t’améliorer.
+Communication : Tu saurais faire comprendre à ta grand-mère des concepts aussi complexes que le RAG en les comparant à la préparation de sa délicieuse tarte aux pommes.
+
+Nous recherchons avant tout des personnes qui s’épanouissent dans un environnement à la pointe de la technologie et qui sont enthousiastes à l’idée de révolutionner la pratique juridique grâce aux LLMs. Cette offre présente une orientation générale plutôt qu’une liste stricte de critères indispensables. N’hésite pas à postuler si le projet t’intéresse ! 
+Appel de 20 minutes avec notre CTO pour faire connaissance et vérifier si nos attentes respectives sont alignées
+Entretien technique de 45 minutes pour évaluer tes compétences techniques.

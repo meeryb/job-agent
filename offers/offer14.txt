@@ -1,0 +1,65 @@
+Stage - Software Engineer & IA - Nobori Partners
+À propos de l’offre d’emploi
+Le sujet du stage :
+
+Concevoir et industrialiser des applications d’IA générative au service des consultants et de nos clients :
+
+Passer du prototype à la solution fiable, sécurisée et maintenable, en appliquant les bonnes pratiques du génie logiciel aux technologies d’IA.
+
+Contexte
+
+Les usages de l’IA générative se multiplient dans le conseil, mais beaucoup de projets restent bloqués au stade du POC. Fiabilité des réponses, sécurité des données, coûts, intégration au SI existant : industrialiser une solution d’IA demande de vraies compétences d’ingénierie logicielle.
+
+Ce stage a pour objectif de concevoir, développer et déployer des applications IA robustes, de mettre en place les outils qui garantissent leur qualité dans la durée et de contribuer à notre savoir-faire technique sur l’IA, en interne comme chez nos clients.
+
+Objectifs du stage
+
+Développement d’applications IA
+
+Concevoir et développer des applications basées sur les LLMs : assistants, agents, copilotes métiers.
+Mettre en œuvre des architectures RAG (Retrieval-Augmented Generation) et des systèmes multi-agents (orchestration, appel d’outils, protocole MCP).
+Développer les API et interfaces permettant d’intégrer ces solutions aux outils existants.
+Industrialisation et mise en production (LLMOps)
+Mettre en place des pipelines CI/CD et le déploiement sur le cloud (Azure, AWS ou GCP).
+Conteneuriser les applications (Docker) et assurer leur supervision : logs, coûts, latence.
+Appliquer les bonnes pratiques de sécurité : gestion des données sensibles, protection contre les injections de prompt, gestion des accès.
+
+Qualité et évaluation des solutions IA
+
+Construire un framework d’évaluation des réponses générées (pertinence, fiabilité, hallucinations).
+Écrire des tests automatisés et comparer les performances de différents modèles et configurations.
+Optimiser le rapport performance / coût des solutions développées.
+
+Capitalisation et diffusion
+
+Documenter les architectures et composants réutilisables dans une bibliothèque interne (briques techniques, templates de projets).
+Partager les apprentissages avec les consultants (démos, ateliers, retours d’expérience).
+
+Livrables attendus
+
+Application IA déployée : une solution fonctionnelle, testée et utilisable en conditions réelles.
+Socle technique réutilisable : composants, pipeline de déploiement et framework d’évaluation documentés.
+Synthèse technique : choix d’architecture, résultats d’évaluation et recommandations pour les projets futurs.
+
+Profil recherché
+
+Formation Bac +4/5 (école d’ingénieurs, master informatique, génie logiciel, IA ou équivalent).
+
+Compétences en :
+
+Développement Python (FastAPI ou équivalent) ; TypeScript est un plus
+IA générative : LLMs, RAG, agents (ex : LangChain, LlamaIndex, SDK des fournisseurs de modèles)
+Bonnes pratiques logicielles : Git, tests, revue de code, architecture logicielle
+Notions de cloud et DevOps (Docker, CI/CD, Azure, AWS ou GCP)
+
+Goût pour le code propre, autonomie, rigueur, et capacité à vulgariser des sujets techniques.
+
+Une expérience (projet, stage, contribution open source) en développement d’applications IA est un plus.
+
+Pourquoi nous rejoindre ?
+
+Construire des solutions IA utilisées pour de vrai, pas seulement des démonstrateurs.
+
+Travailler sur des technologies de pointe (LLMs, agents, LLMOps) avec une vraie autonomie technique.
+
+Bénéficier d’un encadrement technique et d’un environnement stimulant, au croisement du conseil, du développement logiciel et de l’innovation.

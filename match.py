@@ -1,11 +1,12 @@
 from schemas import Skill, RequiredSkill, Offer, CV
+from normalize import normalize, to_options
 
 LEVELS = {"notions": 1, "intermediate": 2, "advanced": 3}
 
 
 def check_skill(req: RequiredSkill, cv_skills: dict) -> tuple[str, str]:
-    options = [req.name] + req.alternatives            # e.g. ["chromadb", "faiss"]
-    found = [o for o in options if o in cv_skills]     # the ones you have
+    options = to_options([req.name] + req.alternatives)
+    found = [o for o in options if o in cv_skills]
 
     if not found:
         return "missing", f"❌ {' / '.join(options)}: not on your CV"
@@ -36,20 +37,26 @@ def categorize(statuses: list[str]) -> str:
 
 
 def match(offer: Offer, cv: CV) -> dict:
-    cv_skills = {s.name: s.level for s in cv.skills}
+    cv_skills = {normalize(s.name): s.level for s in cv.skills}
 
     messages = []
     missing = []
     partial = []
+    seen = set()                                   # requirements already checked
     for req in offer.required_skills:
+        key = to_options([req.name] + req.alternatives)[0]
+        if key in seen:
+            continue                               # duplicate (e.g. python twice): skip
+        seen.add(key)
+
         status, message = check_skill(req, cv_skills)
         messages.append(message)
         if status == "missing":
-            missing.append(req.name)
+            missing.append(key)
         elif status == "partial":
-            partial.append(req.name)
+            partial.append(key)
 
-    bonus = [b for b in offer.bonus if b in cv_skills]
+    bonus = [b for b in offer.bonus if normalize(b) in cv_skills]
 
     statuses = ["missing"] * len(missing) + ["partial"] * len(partial)
     return {
@@ -64,23 +71,18 @@ def match(offer: Offer, cv: CV) -> dict:
 
 if __name__ == "__main__":
     offer = Offer(
-        title="Data Engineer",
+        title="Test normalization",
         required_skills=[
+            RequiredSkill(name="api d'ia / llm", level="unknown", alternatives=["conversational ai"]),
+            RequiredSkill(name="LLMs", level="unknown", alternatives=[]),
             RequiredSkill(name="python", level="unknown", alternatives=[]),
-            RequiredSkill(name="sql", level="unknown", alternatives=[]),
-            RequiredSkill(name="docker", level="intermediate", alternatives=[]),
-            RequiredSkill(name="kubernetes", level="unknown", alternatives=[]),
+            RequiredSkill(name="python", level="unknown", alternatives=[]),
         ],
-        bonus=["airflow", "git"],
+        bonus=[],
         level="unknown", contract="stage", location="Rabat", required_language="unknown",
     )
     cv = CV(
         full_name="Test", languages=["fr"], location="Rabat",
-        skills=[
-            Skill(name="python", level="unknown"),
-            Skill(name="sql", level="unknown"),
-            Skill(name="docker", level="notions"),
-            Skill(name="git", level="unknown"),
-        ],
+        skills=[Skill(name="llm", level="unknown"), Skill(name="python", level="unknown")],
     )
     print(match(offer, cv))
