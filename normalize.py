@@ -13,10 +13,9 @@ for official, variants in _data["skills"].items():
     for v in variants:
         SYNONYMS[v.lower()] = official
 
-
 def normalize(name: str) -> str:
     """Clean one name, then replace it by its official name if it has one."""
-    name = name.strip().lower()
+    name = name.strip().lower().replace("_", " ")
     return SYNONYMS.get(name, name)
 
 
