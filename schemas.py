@@ -27,3 +27,26 @@ class CV(BaseModel):
     skills: list[Skill]
     languages: list[str]
     location: str
+    
+# ---------- Decomposed extraction ----------
+class Requirement(BaseModel):
+    text: str                                  # the sentence, copied exactly
+    kind: Literal["required", "bonus"]
+
+
+class OfferSplit(BaseModel):                   # output of step 1
+    title: str
+    requirements: list[Requirement]
+    level: Literal["junior", "mid", "senior", "unknown"]
+    contract: Literal["stage", "cdi", "cdd", "freelance", "unknown"]
+    location: str
+    required_language: Literal["fr", "en", "unknown"]
+
+
+class SkillGroup(BaseModel):
+    tools: list[str]                           # several tools = any one is enough
+    level: Literal["notions", "intermediate", "advanced", "unknown"]
+
+
+class SentenceSkills(BaseModel):               # output of step 2
+    groups: list[SkillGroup]
