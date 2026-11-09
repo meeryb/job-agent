@@ -1,5 +1,6 @@
 # experiments/similarity_demo.py
 # Goal: compute cosine similarity by hand and test our predictions.
+# Experiment 2: does adding context change the scores?
 
 import math
 import ollama
@@ -28,23 +29,26 @@ def cosine(a, b):
     return dot(a, b) / (norm(a) * norm(b))
 
 
-# 1) Test the code on the small example (we know the answer: 1)
-print("Small example [1, 2] vs [2, 4]:", round(cosine([1, 2], [2, 4]), 3))
-print()
+def score(text_a, text_b):
+    """Cosine similarity between two texts."""
+    return cosine(embed(text_a), embed(text_b))
 
-# 2) Real pairs with bge-m3
-pairs = [
-    ("Docker", "containers"),
-    ("Docker", "cooking pasta"),
-    ("Java", "JavaScript"),
+
+# Each test: (word A, word B, A in a sentence, B in a sentence)
+tests = [
+    ("Java", "JavaScript",
+     "Backend development in Java with Spring Boot",
+     "Frontend development in JavaScript with React"),
+    ("Docker", "containers",
+     "Deploy the application with Docker",
+     "Experience with containers for deployment"),
+    ("Docker", "cooking pasta",
+     "Deploy the application with Docker",
+     "Cooking pasta for a family dinner"),
 ]
 
-results = []
-for text_a, text_b in pairs:
-    score = cosine(embed(text_a), embed(text_b))
-    results.append((score, text_a, text_b))
-
-results.sort(reverse=True)  # highest score first
-
-for score, text_a, text_b in results:
-    print(f"{score:.3f}  {text_a} vs {text_b}")
+print(f"{'Pair':<28}{'Alone':>8}{'Context':>10}")
+for a, b, ctx_a, ctx_b in tests:
+    alone = score(a, b)
+    with_context = score(ctx_a, ctx_b)
+    print(f"{a + ' vs ' + b:<28}{alone:>8.3f}{with_context:>10.3f}")
