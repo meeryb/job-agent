@@ -1,13 +1,13 @@
 import json
 from pathlib import Path
 import ollama
-from extract import extract_offer, OLLAMA_MODEL
-from match import match
-from schemas import CV
+from job_agent.extract import extract_offer, OLLAMA_MODEL
+from job_agent.match import match
+from job_agent.schemas import CV
 
 MAX_STEPS = 6
 
-with open("cv.json", encoding="utf-8") as f:
+with open("data/cv.json", encoding="utf-8") as f:
     CV_DATA = CV.model_validate_json(f.read())
 
 _results = {}   # cache for this session: offer file -> match result
@@ -18,7 +18,7 @@ ORDER = {"🟢 très compatible": 0, "🟠 compatible avec écarts": 1, "🔴 pe
 # ---------- Helpers (not tools) ----------
 def _all_results() -> dict:
     """Extract and match every offer once, then reuse the results."""
-    for path in sorted(Path("offers").glob("*.txt")):
+    for path in sorted(Path("data/offers").glob("*.txt")):
         if path.name not in _results:
             print(f"   (extracting {path.name}...)")
             offer = extract_offer(path.read_text(encoding="utf-8"))

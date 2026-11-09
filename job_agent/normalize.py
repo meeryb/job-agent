@@ -1,7 +1,7 @@
 import json
 
 # ---------- Load the synonym map from the data file ----------
-with open("synonyms.json", encoding="utf-8") as f:
+with open("data/synonyms.json", encoding="utf-8") as f:
     _data = json.load(f)
 
 NO_SPLIT = {n.lower() for n in _data["no_split"]}

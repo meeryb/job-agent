@@ -1,5 +1,5 @@
-from extract import call_llm, GROUP_RULES, PROVIDER, OLLAMA_MODEL, GEMINI_MODEL
-from schemas import SentenceSkills
+from job_agent.extract import call_llm, GROUP_RULES, PROVIDER, OLLAMA_MODEL, GEMINI_MODEL
+from job_agent.schemas import SentenceSkills
 
 # Each sentence + the groups YOU expect (ground truth)
 CASES = [

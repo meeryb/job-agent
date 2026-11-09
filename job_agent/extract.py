@@ -3,7 +3,7 @@ import ollama
 from google import genai
 from google.genai import types, errors
 from dotenv import load_dotenv
-from schemas import Offer, CV
+from job_agent.schemas import Offer, CV
 
 load_dotenv()  # keep your own key lines if different
 

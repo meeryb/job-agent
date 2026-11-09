@@ -1,7 +1,7 @@
 import csv
-from extract import extract_offer, extract_cv
-from match import match
-from schemas import CV
+from job_agent.extract import extract_offer, extract_cv
+from job_agent.match import match
+from job_agent.schemas import CV
 
 # The agent's labels → the same words as in labels.csv
 COLOR = {
@@ -17,18 +17,18 @@ def read_file(path: str) -> str:
 
 
 # 1. Your labels (ground truth)
-with open("labels.csv", encoding="utf-8") as f:
+with open("evals/labels.csv", encoding="utf-8") as f:
     labels = list(csv.DictReader(f))
 
 # 2. Run the agent on each labeled offer
-cv = CV.model_validate_json(read_file("cv.json"))
+cv = CV.model_validate_json(read_file("data/cv.json"))
 rows = []
 for row in labels:
     file = row["file"].strip()
     you = row["label"].strip().lower()
     print(f"Running {file}...")
 
-    offer = extract_offer(read_file(f"offers/{file}"))
+    offer = extract_offer(read_file(f"data/offers/{file}"))
     result = match(offer, cv)
     agent = COLOR[result["label"]]
 

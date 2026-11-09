@@ -1,5 +1,5 @@
-from schemas import Skill, RequiredSkill, Offer, CV
-from normalize import normalize, to_options
+from job_agent.schemas import Skill, RequiredSkill, Offer, CV
+from job_agent.normalize import normalize, to_options
 
 LEVELS = {"notions": 1, "intermediate": 2, "advanced": 3}
 
