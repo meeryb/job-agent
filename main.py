@@ -32,12 +32,24 @@ for r in sorted(results, key=sort_key):
     for b in r["bonus"]:
         print(f"    ➕ bonus: {b}")
 
-# 4. Gap report: which skills are missing most often
-gap_counts = {}
+# 4. Gap report: missing and partial counted separately
+missing_counts = {}
+partial_counts = {}
 for r in results:
-    for skill in r["missing"] + r["partial"]:
-        gap_counts[skill] = gap_counts.get(skill, 0) + 1
+    for skill in r["missing"]:
+        missing_counts[skill] = missing_counts.get(skill, 0) + 1
+    for skill in r["partial"]:
+        partial_counts[skill] = partial_counts.get(skill, 0) + 1
+
+
+def total(skill: str) -> int:
+    return missing_counts.get(skill, 0) + partial_counts.get(skill, 0)
+
+
+all_skills = set(missing_counts) | set(partial_counts)
 
 print("\n========== GAPS ==========")
-for skill, count in sorted(gap_counts.items(), key=lambda x: x[1], reverse=True):
-    print(f"   {skill}: {count} of {len(results)} offers")
+for skill in sorted(all_skills, key=total, reverse=True):
+    m = missing_counts.get(skill, 0)
+    p = partial_counts.get(skill, 0)
+    print(f"   {skill}: {m + p} of {len(results)} offers  ({m} missing, {p} partial)")

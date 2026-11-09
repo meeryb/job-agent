@@ -217,6 +217,10 @@
       "name": "tool calling",
       "level": "unknown"
     },
+     {
+      "name": "generative ai",
+      "level": "unknown"
+    },
     {
       "name": "jdbc",
       "level": "unknown"
