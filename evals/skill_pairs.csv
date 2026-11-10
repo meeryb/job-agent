@@ -1,0 +1,21 @@
+query,expected
+containers,docker
+conteneurisation,docker
+Postgres,postgresql
+React.js,react
+Microsoft Azure,azure
+version control,git
+large language models,llm
+JS,javascript
+Spring,spring boot
+traitement du langage naturel,nlp
+retrieval-augmented generation,rag
+vector database,chromadb
+Kubernetes,none
+TypeScript,none
+SQL Server,none
+Tableau,none
+LangChain,none
+Angular,none
+cooking pasta,none
+customer service,none
